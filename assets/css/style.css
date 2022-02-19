@@ -3,7 +3,169 @@
     margin: 0;
     padding: 0;
   }
+ 
+header {
+  background-color: gold;
+  border: solid;
+  border-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 35px;
+  margin: 20px;
+}
+
+header h1 {
+  color: darkgrey;
+  text-shadow: 0 0 5px black;
+}
+
+header h1 a {
+  color: darkgray;
+  text-shadow: 0 0 5px black;
+}
+
+header nav {
+  margin: 25px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: right;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 body {
     background-image: url("..//images/Backgroudimg.jpg") ;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
 } 
+
+article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 35px;
+  margin: 20px;
+  background-color: gray;
+  border: solid;
+  border-color: aqua;
+  border-radius: 20%;
+  font-size: x-large;
+ 
+}
+
+article nav {
+  color: aqua;
+  /* padding-left: 100%; */
+  padding: 50px;
+  padding-right: 500px;
+}
+
+article nav p {
+  text-decoration: underline;
+}
+
+article nav ul li a {
+ margin: 30%;
+}
+
+section {
+  background-color: gold;
+  color: aqua;
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 35px;
+  margin: 20px;
+  
+ 
+}
+
+section div {
+  padding: 35px;
+  border: aqua;
+  flex-wrap: wrap;
+}
+
+section h2 {
+  text-decoration: underline;
+} 
+
+section div a {
+background-color: gray;
+margin-left: 50%;
+}
+
+section div h2 {
+background-color: gray;  
+}
+
+section div p {
+  background-color: gray;
+}
+
+#profile-img {
+  max-width: 100%;
+  height: auto;
+  color: aqua;
+  border: solid;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about-me h2 {
+  text-align: center;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+footer {
+  padding: 20px 35px;
+  margin: 20px;
+}
+
+
+
+footer div {
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+footer div nav ul {
+  padding: 25px;
+}
+
+footer div nav ul li {
+  background-color: gray;
+  text-align: right;
+}
+
+#github-link {
+
+}
+
+
+
+
+
+
