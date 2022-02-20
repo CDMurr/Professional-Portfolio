@@ -13,7 +13,7 @@ take you to the corresponding application.
 
 I used html and css to build this website, using media querries.
 
-Please let me know if there is any other information you would like form me. 
+Please let me know if there is any other information you need from me. 
 
 
 
