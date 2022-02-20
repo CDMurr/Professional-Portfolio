@@ -129,6 +129,8 @@ section div #Run-Buddy {
 #Run-Buddy {
   background-image: url("..//images/run-buddy-img.jpg") ;
   border: solid;
+  border-color: aqua;
+  color: white;
   text-align: center;
   margin: 30px;
 }
