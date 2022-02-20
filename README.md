@@ -1,31 +1,19 @@
 # Professional-Portfolio
-*User Story
+User story: 
 
-AS AN employer
+This is my professional portfolio, featuring my current and future projects. 
+This portfolio is designed to showcase a recent photo of myself, a list of my
+qualifying skills, an about me section. as well my contact information.
 
-I WANT to view a potential employee's deployed portfolio of work samples
+You will see that in the navigation bar, there is a list of quick nav links to
+take you whatever section of my portfolio website you would like. 
 
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+In the projects section I have images, with titles, that can be clicked on to 
+take you to the corresponding application.  
 
-*Acceptance Criteria
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+I used html and css to build this website, using media querries.
 
-GIVEN I need to sample a potential employee's previous work
+Please let me know if there is any other information you would like form me. 
 
-* WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
