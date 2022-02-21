@@ -17,7 +17,9 @@ take you to the corresponding application.
 * CSS 
 
 ## Website 
+* Repository link:
 https://github.com/CDMurr/Professional-Portfolio
 
+* Published at : https://cdmurr.github.io/Professional-Portfolio/
 
 

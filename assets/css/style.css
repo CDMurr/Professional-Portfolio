@@ -4,13 +4,13 @@
     padding: 0;
   }
  
+  /* header starts */
 header {
   background-color: gold;
   border: solid;
   border-color: aqua;
   display: flex;
   justify-content: space-between;
-  
   padding: 20px 35px;
   margin: 20px;
 }
@@ -47,6 +47,7 @@ body {
     background-attachment: fixed;   
 } 
 
+/* profile image / technical skills starts  */
 article {
   display: flex;
   justify-content: space-between;
@@ -80,6 +81,7 @@ article nav p {
   flex-wrap: wrap;
 }
 
+/* section style starts */
 section {
   background-color: gold;
   color: aqua;
@@ -115,10 +117,13 @@ section div #Run-Buddy {
   text-align: center;
 }
 
+/* about me starts */
+
 #about-me h2 {
   text-align: center;
 }
 
+/* Projects section starts */
 #Run-Buddy {
   background-image: url("..//images/run-buddy-img.jpg") ;
   border: solid;
