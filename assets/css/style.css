@@ -26,6 +26,9 @@ header nav {
 
 header nav ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 
@@ -34,6 +37,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
 }
 
 body {
@@ -96,17 +100,6 @@ section h2 {
   text-decoration: underline;
 } 
 
-/* section .contact-me {
-  /* display: flex; */
-  /* background-color: red; */
-/* }
-
-.contact-me nav {
-  background-color: red;
-}
-
-
-/* change section div a - to = a class  */
 section div .contact-info {
 background-color: gray;
 }
@@ -179,17 +172,41 @@ section div #Run-Buddy {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  header h1 a {
-    /* this will be applied on any screen smaller than 980px */
-    color: tomato;
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    font-size: 80px;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
   }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+  }
+
   header h1 {
-    /* this will be applied on any screen between 768px and 575px */
     font-size: 80px;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    margin: 20px;
+    border: solid;
+    border-color: aqua;
+    font-size: x-large;
   }
 }
 
@@ -197,7 +214,7 @@ section div #Run-Buddy {
 @media screen and (max-width: 575px) {
   header h1 {
     /* this will be applied on any screen smaller than 575px */
-    font-size: 100px;
+    font-size: 80px;
   }
 }
 
