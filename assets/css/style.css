@@ -113,7 +113,7 @@ border-color: aqua;
 text-align: center;
 }
 
-section div #Run-Buddy {
+section div #charge-on-the-run {
   text-align: center;
 }
 
@@ -124,8 +124,8 @@ section div #Run-Buddy {
 }
 
 /* Projects section starts */
-#Run-Buddy {
-  background-image: url("..//images/run-buddy-img.jpg") ;
+#charge-on-the-run {
+  background-image: url("..//Screen\ Shot\ 2022-03-24\ at\ 5.39.07\ PM.png") ;
   border: solid;
   border-color: aqua;
   color: white;
