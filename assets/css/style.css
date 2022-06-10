@@ -6,7 +6,8 @@
  
   /* header starts */
 header {
-  background-color: gold;
+  /* background-color: gold; */
+  background-color: whitesmoke;
   border: solid;
   border-color: aqua;
   display: flex;
@@ -72,8 +73,8 @@ article nav p {
 }
 
 #profile-img {
-  max-width: 100%;
-  height: auto;
+  max-width: 300px;
+  height: 500px;
   color: aqua;
   border: solid;
   border-radius: 50%;
@@ -83,7 +84,7 @@ article nav p {
 
 /* section style starts */
 section {
-  background-color: gold;
+  /* background-color: gold; */
   color: aqua;
   border: solid;
   display: flex;
@@ -102,18 +103,20 @@ section h2 {
   text-decoration: underline;
 } 
 
-section div .contact-info {
-background-color: gray;
-}
 
 section div h2 {
-background-color: gray; 
+
 border: solid; 
 border-color: aqua;
 text-align: center;
 }
 
-section div #charge-on-the-run {
+#contact-me {
+  color: black;
+  background-color: whitesmoke;
+}
+
+section div #mp {
   text-align: center;
 }
 
@@ -124,11 +127,12 @@ section div #charge-on-the-run {
 }
 
 /* Projects section starts */
-#charge-on-the-run {
-  background-image: url("..//Screen\ Shot\ 2022-03-24\ at\ 5.39.07\ PM.png") ;
+#mp {
+  background-image: url("..///images/radar-menu.jpg") ;
+  image-rendering: auto;
   border: solid;
   border-color: aqua;
-  color: white;
+  color: red;
   text-align: center;
   margin: 30px;
 }
@@ -140,12 +144,12 @@ section div #charge-on-the-run {
 }
 
 #calculator {
-  background-image: url("../images/calculator.jpg");
+  background-image: url("..//images/Screen\ Shot\ 2022-03-24\ at\ 5.39.07\ PM.png");
   border: solid;
   border-color: aqua;
-  color: white;
+  color: red;
   text-align: center;
-  padding: 30px;
+  margin: 30px;
 }
 
 #fanpage {
